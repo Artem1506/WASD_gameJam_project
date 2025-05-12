@@ -34,12 +34,20 @@
   },
   "name":"WASD_gameJam_project",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_qte_classiki","path":"objects/obj_qte_classiki/obj_qte_classiki.yy",},},
+    {"id":{"name":"rm_classiki","path":"rooms/rm_classiki/rm_classiki.yy",},},
+    {"id":{"name":"rm_eatOrNot","path":"rooms/rm_eatOrNot/rm_eatOrNot.yy",},},
+    {"id":{"name":"rm_mainPage","path":"rooms/rm_mainPage/rm_mainPage.yy",},},
+    {"id":{"name":"rm_startPage","path":"rooms/rm_startPage/rm_startPage.yy",},},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_startPage","path":"rooms/rm_startPage/rm_startPage.yy",},},
+    {"roomId":{"name":"rm_mainPage","path":"rooms/rm_mainPage/rm_mainPage.yy",},},
+    {"roomId":{"name":"rm_classiki","path":"rooms/rm_classiki/rm_classiki.yy",},},
+    {"roomId":{"name":"rm_eatOrNot","path":"rooms/rm_eatOrNot/rm_eatOrNot.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
