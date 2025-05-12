@@ -30,10 +30,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":600,
+    "Height":480,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":800,
+    "Width":640,
   },
   "sequenceId":null,
   "views":[
