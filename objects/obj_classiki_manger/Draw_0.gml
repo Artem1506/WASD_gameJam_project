@@ -1,10 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x1 = x;
-y1 = y;
-y2 = y+10;
-x2 = x;
+draw_self();
 
-throw_bit = false;
-throw_resalt = noone;
+draw_text(x+256, y-64, string(current_lap));
