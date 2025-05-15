@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_spaceButton",
+    "path":"sprites/spr_spaceButton/spr_spaceButton.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
