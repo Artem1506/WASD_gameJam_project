@@ -12,4 +12,7 @@ if (throw_resalt == obj_classiki_manger.current_lap) {
 		instance_create_layer(100, 100, "HUD", obj_classiki_qte)
 		instance_destroy()
 	}
+} else {
+	audio_play_sound(snd_fail, 10, false);
+	instance_destroy();
 }

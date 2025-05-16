@@ -11,4 +11,7 @@ if (random_button != noone) {
 
 if (combo == true) { current_step += 1; }
 
-if (combo != true) { instance_destroy() }
+if (combo != true) {
+	audio_play_sound(snd_fail, 10, false);
+	instance_destroy() 
+}

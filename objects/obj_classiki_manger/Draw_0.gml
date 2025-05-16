@@ -4,3 +4,7 @@
 draw_self();
 
 draw_text(x+256, y-64, string(current_lap));
+
+if (instance_exists(obj_classiki_qte)) {
+	draw_sprite(spr_player, 0, x+obj_classiki_qte.current_step * 10, y+40);
+} else { draw_sprite(spr_player, 0, x, y+40) }
