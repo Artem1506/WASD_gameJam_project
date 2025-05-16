@@ -13,8 +13,9 @@ draw_circle(ball_x, ball_y, 15, false);
 draw_set_font(f_base);
 draw_set_color(c_green);
 draw_text(room_width/2, 50, current_item);
-show_debug_message(string(current_item))
+//show_debug_message(string(current_item))
 
 // Отображение счета и подсказки
 draw_text(20, 20, "Игрок 1: " + string(score_player1));
 draw_text(20, room_height-30, "ЛКМ - съедобное, ПКМ - несъедобное");
+draw_text(room_width/2, room_height/2, end_game)
