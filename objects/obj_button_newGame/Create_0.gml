@@ -4,7 +4,7 @@
 event_inherited();
 
 normalStyle = spr_button_newGame_normal;
-hoveredStyle = spr_button_newGame_normal;
+hoveredStyle = spr_button_newGame_hovered;
 pressedStyle = spr_button_newGame_normal;
 
 callback_function = function() {
