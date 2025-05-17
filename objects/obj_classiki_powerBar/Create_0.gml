@@ -3,7 +3,7 @@
 
 x1 = x;
 y1 = y;
-y2 = y+10;
+y2 = y+9;
 x2 = x;
 
 throw_bit = false;
