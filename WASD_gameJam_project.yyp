@@ -45,7 +45,6 @@
   "resources":[
     {"id":{"name":"f_base","path":"fonts/f_base/f_base.yy",},},
     {"id":{"name":"eatOrNot","path":"objects/eatOrNot/eatOrNot.yy",},},
-    {"id":{"name":"eatOrNot2","path":"objects/eatOrNot2/eatOrNot2.yy",},},
     {"id":{"name":"obj_button_newGame","path":"objects/obj_button_newGame/obj_button_newGame.yy",},},
     {"id":{"name":"obj_classiki_manger","path":"objects/obj_classiki_manger/obj_classiki_manger.yy",},},
     {"id":{"name":"obj_classiki_powerBar","path":"objects/obj_classiki_powerBar/obj_classiki_powerBar.yy",},},
