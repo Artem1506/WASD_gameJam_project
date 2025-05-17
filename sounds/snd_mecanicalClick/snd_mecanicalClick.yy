@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.365714,
+  "duration":0.31333333,
   "name":"snd_mecanicalClick",
   "parent":{
     "name":"Sounds",

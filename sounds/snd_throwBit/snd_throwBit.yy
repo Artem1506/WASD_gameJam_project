@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.653061,
+  "duration":0.61285716,
   "name":"snd_throwBit",
   "parent":{
     "name":"classiki",
