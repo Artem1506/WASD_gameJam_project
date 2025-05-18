@@ -46,7 +46,6 @@
   "resources":[
     {"id":{"name":"f_base","path":"fonts/f_base/f_base.yy",},},
     {"id":{"name":"eatOrNot","path":"objects/eatOrNot/eatOrNot.yy",},},
-    {"id":{"name":"eatOrNot2","path":"objects/eatOrNot2/eatOrNot2.yy",},},
     {"id":{"name":"obj_button_about","path":"objects/obj_button_about/obj_button_about.yy",},},
     {"id":{"name":"obj_button_exit","path":"objects/obj_button_exit/obj_button_exit.yy",},},
     {"id":{"name":"obj_button_newGame","path":"objects/obj_button_newGame/obj_button_newGame.yy",},},
@@ -57,6 +56,8 @@
     {"id":{"name":"obj_classiki_powerBar","path":"objects/obj_classiki_powerBar/obj_classiki_powerBar.yy",},},
     {"id":{"name":"obj_classiki_qte","path":"objects/obj_classiki_qte/obj_classiki_qte.yy",},},
     {"id":{"name":"obj_classikiMain","path":"objects/obj_classikiMain/obj_classikiMain.yy",},},
+    {"id":{"name":"obj_eatOrNot","path":"objects/obj_eatOrNot/obj_eatOrNot.yy",},},
+    {"id":{"name":"obj_eatOrNotMain","path":"objects/obj_eatOrNotMain/obj_eatOrNotMain.yy",},},
     {"id":{"name":"obj_gameTimer","path":"objects/obj_gameTimer/obj_gameTimer.yy",},},
     {"id":{"name":"obj_pauseMenu","path":"objects/obj_pauseMenu/obj_pauseMenu.yy",},},
     {"id":{"name":"ps_classiki_correct","path":"particles/ps_classiki_correct/ps_classiki_correct.yy",},},
@@ -83,6 +84,7 @@
     {"id":{"name":"spr_button_pauseExit_normal","path":"sprites/spr_button_pauseExit_normal/spr_button_pauseExit_normal.yy",},},
     {"id":{"name":"spr_classiki","path":"sprites/spr_classiki/spr_classiki.yy",},},
     {"id":{"name":"spr_dialog_cloud_but","path":"sprites/spr_dialog_cloud_but/spr_dialog_cloud_but.yy",},},
+    {"id":{"name":"spr_eatOrNot_NPC","path":"sprites/spr_eatOrNot_NPC/spr_eatOrNot_NPC.yy",},},
     {"id":{"name":"spr_lmb","path":"sprites/spr_lmb/spr_lmb.yy",},},
     {"id":{"name":"spr_lrmb","path":"sprites/spr_lrmb/spr_lrmb.yy",},},
     {"id":{"name":"spr_mainPageBG","path":"sprites/spr_mainPageBG/spr_mainPageBG.yy",},},
@@ -97,8 +99,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_startPage","path":"rooms/rm_startPage/rm_startPage.yy",},},
-    {"roomId":{"name":"rm_eatOrNot","path":"rooms/rm_eatOrNot/rm_eatOrNot.yy",},},
     {"roomId":{"name":"rm_mainPage","path":"rooms/rm_mainPage/rm_mainPage.yy",},},
+    {"roomId":{"name":"rm_eatOrNot","path":"rooms/rm_eatOrNot/rm_eatOrNot.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
