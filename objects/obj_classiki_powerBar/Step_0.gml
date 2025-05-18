@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (global.inGame == false) { instance_destroy(); }
+
 if (throw_bit == false) { 
 	if (x2 < x1+20) { 
 		x2 += 5 / 10; 

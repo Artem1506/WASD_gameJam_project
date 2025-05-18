@@ -1,4 +1,7 @@
 // Обработка ввода от игрока
+
+if (global.inGame == false) { instance_destroy(); }
+
 if (mouse_check_button_pressed(mb_left)) {
     if (is_food & press_count < 1 & !input_blocked) {
          //score_player1 += 1;
