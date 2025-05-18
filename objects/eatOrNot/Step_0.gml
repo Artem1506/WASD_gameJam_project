@@ -1,35 +1,28 @@
-// obj_game_manager - Step Event
-// Обновление таймера
-current_time_game -= 1 / room_speed;
-if (current_time <= 0) {
-    choose_item();
-    current_time_game = time_limit;
-    // Переключение игрока
-    current_player = (current_player == 1) ? 2 : 1;
-    
-    // Анимация движения мяча
-    ball_position = 0;
-}
-
 // Обработка ввода от игрока
 if (mouse_check_button_pressed(mb_left)) {
-    if (is_food) {
-        if (current_player == 1) score_player1 += 1;
-        else score_player2 += 1;
+    if (is_food && press_count < 1 && !input_blocked) {
+		 right_ansver = true
+		 press_count += 1;
+		 show_debug_message("Верный ввод выбрано сьедобное")
     }
-    choose_item();
-    current_time_game = time_limit;
+	else if (press_count < 1 && !input_blocked){
+		press_count += 1;
+		show_debug_message("Не верный ввод выбрано съедобное, а кидалось не сьедобное")
+	}
 }
 
 if (mouse_check_button_pressed(mb_right)) {
-    if (!is_food) {
-        if (current_player == 1) score_player1 += 1;
-        else score_player2 += 1;
+    if (!is_food && press_count < 1 && !input_blocked) {
+		right_ansver = true
+		press_count += 1;
+		show_debug_message("Верный ввод выбрано не сьедобное")
     }
-    choose_item();
-    current_time_game = time_limit;
+	else if ( press_count < 1 & !input_blocked){
+		press_count += 1;
+		show_debug_message("Не верный ввод выбрано не съедобное, а кидалось сьедобное")
+	}
 }
 
 // Анимация мяча
-ball_position += ball_speed;
-if (ball_position > 1) ball_position = 1;
+//ball_position += ball_speed;
+//if (ball_position > 1) ball_position = 1;
