@@ -36,7 +36,7 @@ if (combo == false) {
 		if (mouse_check_button_pressed(mb_left)) { audio_play_sound(snd_fail_short, 10, false); }
 	}
 	if (random_button == 2) { 
-		if (mouse_check_button_pressed(mb_left) && mouse_check_button_pressed(mb_right)) { 
+		if (mouse_check_button(mb_left) && mouse_check_button(mb_right)) { 
 		combo = true; 
 		part_system_position(part_system_create(ps_classiki_correct), x, y);
 		audio_play_sound(snd_correctQte, 10, false);
