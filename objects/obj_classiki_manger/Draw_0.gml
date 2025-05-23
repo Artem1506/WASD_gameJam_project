@@ -7,7 +7,9 @@ draw_set_font(f_base);
 draw_set_color(c_black);
 
 if (sprite_index == spr_dialog_cloud_but) {
-	draw_text(x+5, y+5, "женька! хочешь в классики поиграть?")
+	draw_text(x+6, y+5, "Женька! хочешь")
+	draw_text(x+6, y+17, "в классики")
+	draw_text(x+6, y+29, "поиграть?")
 }
 
 draw_sprite(spr_score1, 0, 320, 480)

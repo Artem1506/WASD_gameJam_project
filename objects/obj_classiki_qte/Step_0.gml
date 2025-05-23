@@ -12,7 +12,7 @@ if (combo == true) {
 		if (random_button == 0) { sprite_index = spr_lmb; }
 		else if (random_button == 1) { sprite_index = spr_rmb; }
 		else if (random_button == 2) { sprite_index = spr_lrmb; }
-		alarm[0] = 120;
+		alarm[0] = 60;
 	}
 }
 
