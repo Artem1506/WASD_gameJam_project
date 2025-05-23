@@ -53,5 +53,3 @@ if (current_step == 13) {
 	instance_destroy()
 } 
 	
-show_debug_message(string(obj_classiki_manger.current_lap))
-show_debug_message(string(current_step))
