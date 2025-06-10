@@ -4,3 +4,5 @@
 random_button = noone;
 combo = true;
 current_step = 1;
+response_time = 120;
+dialog_1 = false;

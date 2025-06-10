@@ -1,18 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+var resp_t = response_time - obj_classiki_manger.current_lap * 5;
+
 if (global.inGame == false) { instance_destroy(); }
 
 if (combo == true) {
 	if (random_button == noone) {
-		//random_button = irandom(1);
 		random_button = irandom(2);
 		combo = false
 
 		if (random_button == 0) { sprite_index = spr_lmb; }
 		else if (random_button == 1) { sprite_index = spr_rmb; }
 		else if (random_button == 2) { sprite_index = spr_lrmb; }
-		alarm[0] = 60;
+		alarm[0] = resp_t;
 	}
 }
 
@@ -47,9 +48,8 @@ if (combo == false) {
 	}
 }
 
-if (current_step == 13) { 
+if (current_step == 15) { 
 	obj_classiki_manger.current_lap += 1;
-	instance_create_layer(287, 320, "Instances", obj_classiki_powerBar)
+	instance_create_layer(63, 390, "Instances", obj_classiki_powerBar)
 	instance_destroy()
 } 
-	

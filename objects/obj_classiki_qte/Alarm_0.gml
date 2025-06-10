@@ -13,5 +13,6 @@ if (combo == true) { current_step += 1; }
 
 if (combo != true) {
 	audio_play_sound(snd_fail, 10, false);
-	instance_destroy() 
+	dialog_1 = true;
+	alarm[1] = 120
 }
