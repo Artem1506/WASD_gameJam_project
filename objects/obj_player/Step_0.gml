@@ -112,6 +112,15 @@ if (instance_exists(obj_classiki_manger) && obj_classiki_manger.current_lap != n
 		}
 	}
 }
+
+if (instance_exists(obj_eatOrNot_manger)) {
+	if (!instance_exists(obj_eatOrNot)) {
+		x = 445;
+		y = 325;
+		sprite_index = spr_player_idle_sR;
+	}
+}
+
 /*
 if (instance_exists(obj_eatOrNot) && obj_classiki_manger.sprite_index == spr_dialog_cloud_but) {
 	if (!instance_exists(obj_classiki_powerBar) || !instance_exists(obj_classiki_qte)) {

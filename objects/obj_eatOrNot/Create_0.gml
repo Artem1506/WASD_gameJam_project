@@ -11,13 +11,13 @@ current_item = "";
 is_food = undefined;
 say_item = false;
 
-right_ansver = false;
+right_ansver = noone;
 
 press_count = 0;
 
-input_blocked = false; // Флаг блокировки ввода
+input_blocked = true; // Флаг блокировки ввода
 
-end_game = "";
+end_game = false;
 
 // Установка будильника
 //alarm[0] = time_limit * room_speed; // Переводим секунды в шаги
@@ -36,6 +36,7 @@ function choose_item() {
 
 function first_stadia() {
 	//show_debug_message("Мальчик гоорит слово и начинается таймер ожидания ввод заблокирован")
+	sprite_index = spr_eatOrNot_NPC_idle
 	input_blocked = true;
 	//show_debug_message("Вывод заблокирован")
 	choose_item();

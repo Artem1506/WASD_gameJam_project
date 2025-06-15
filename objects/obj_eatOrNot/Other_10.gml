@@ -1,4 +1,4 @@
-function choose_item() {
+/*function choose_item() {
     if (irandom(1) == 0) {
         is_food = true;
         current_item = food_items[irandom(array_length_1d(food_items)-1)];

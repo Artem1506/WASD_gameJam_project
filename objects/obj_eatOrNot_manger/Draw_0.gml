@@ -18,3 +18,8 @@ draw_set_color(c_black)
 if (instance_exists(obj_eatOrNot)) {
 	draw_text(315, 448, string(obj_eatOrNot.score_player)); }
 draw_set_color(cur_color);
+
+//if (instance_exists(obj_eatOrNot)
+if (!instance_exists(obj_eatOrNot) || obj_eatOrNot.sprite_index == noone) {
+	draw_sprite(spr_eatOrNot_NPC_idle, 0, 584, 331)
+}
