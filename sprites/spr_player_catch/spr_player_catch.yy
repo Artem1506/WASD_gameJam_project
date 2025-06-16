@@ -66,7 +66,7 @@
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
     "seqHeight":74.0,
-    "seqWidth":35.0,
+    "seqWidth":55.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
