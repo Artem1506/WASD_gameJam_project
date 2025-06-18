@@ -77,6 +77,7 @@
     {"id":{"name":"snd_fail_short","path":"sounds/snd_fail_short/snd_fail_short.yy",},},
     {"id":{"name":"snd_fail","path":"sounds/snd_fail/snd_fail.yy",},},
     {"id":{"name":"snd_hower","path":"sounds/snd_hower/snd_hower.yy",},},
+    {"id":{"name":"snd_interaction_voice","path":"sounds/snd_interaction_voice/snd_interaction_voice.yy",},},
     {"id":{"name":"snd_mainPage_theme","path":"sounds/snd_mainPage_theme/snd_mainPage_theme.yy",},},
     {"id":{"name":"snd_mecanicalClick","path":"sounds/snd_mecanicalClick/snd_mecanicalClick.yy",},},
     {"id":{"name":"snd_select","path":"sounds/snd_select/snd_select.yy",},},

@@ -5,6 +5,7 @@ time_limit = exp(-0.25 * score_player)*2; //по экспоненте умень
 
 if (say_item == false) {
 	first_stadia();
+	audio_play_sound(snd_interaction_voice, 1, false);
 	alarm[0] = time_limit*room_speed;
 }
 
