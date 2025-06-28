@@ -13,6 +13,21 @@ if (throw_bit == true) {
 	draw_sprite(spr_bit, 0, x2, y-25)
 }
 
+if (obj_classiki_manger.current_lap < 4) {
+	if (x2 < x1+20 && obj_classiki_manger.current_lap == 1) {
+		draw_sprite(spr_tutorial_1, 0, x1, y1);
+		part_system_position(part_system_create(ps_tutorial), x1+10, y1-21);
+		}
+	if (x2 > x1+20 && x2 < x1+40 && obj_classiki_manger.current_lap == 2) {
+		draw_sprite(spr_tutorial_1, 0, x1+20, y1);
+		part_system_position(part_system_create(ps_tutorial), x1+30, y1-21);
+		}
+	if (x2 > x1+40 && x2 < x1+60 && obj_classiki_manger.current_lap == 3) {
+		draw_sprite(spr_tutorial_1, 0, x1+40, y1);
+		part_system_position(part_system_create(ps_tutorial), x1+50, y1-21);
+		}
+}
+		
 if (dialog_1 == true) {
 	draw_sprite(spr_dialog_cloud, 0, obj_classiki_manger.x, obj_classiki_manger.y);
 	var cur_color = draw_get_color();

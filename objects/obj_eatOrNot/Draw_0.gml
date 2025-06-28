@@ -3,6 +3,7 @@
 draw_self();
 var cur_color = draw_get_color();
 
+
 if (say_item == true) {
 	draw_sprite(spr_dialog_cloud_2, 0, 470, 190);
 	draw_set_font(f_base);

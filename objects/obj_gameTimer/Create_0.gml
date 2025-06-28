@@ -4,3 +4,13 @@
 global.game_timer = 10 * 60 * room_speed;
 global.pauseIsActive = false;
 global.inGame = false;
+
+total_seconds = global.game_timer div room_speed;
+minutes = total_seconds div 60;
+minutes_prev = minutes
+
+//minutes = noone;
+//minutes_prev = minutes;
+show_cloud_started = false;
+show_cloud = false;
+
