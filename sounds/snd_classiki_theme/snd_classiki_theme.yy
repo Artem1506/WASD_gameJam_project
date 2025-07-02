@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_classiki_theme.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.49,
 }

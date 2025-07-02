@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_startPage_theme",
+  "%Name":"snd_gameWin",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":76.8,
-  "name":"snd_startPage_theme",
+  "duration":2.6394331,
+  "name":"snd_gameWin",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_startPage_theme.mp3",
+  "soundFile":"snd_gameWin.mp3",
   "type":0,
-  "volume":0.51,
+  "volume":1.0,
 }

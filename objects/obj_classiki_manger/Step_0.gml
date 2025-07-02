@@ -9,6 +9,8 @@ if (instance_exists(obj_classiki_powerBar) || instance_exists(obj_classiki_qte))
 
 if (instance_exists(obj_classiki_qte)) {
 	if (obj_classiki_qte.combo == true && obj_classiki_qte.current_step == 15) {
+		audio_play_sound(snd_gameWin, 20, false);
+		// todo добавить рисование окна победы + добавить счетчик побед
 		global.game_timer += current_lap*30*room_speed;
 	}
 }
