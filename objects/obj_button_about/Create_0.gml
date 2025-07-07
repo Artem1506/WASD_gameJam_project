@@ -5,7 +5,7 @@ event_inherited();
 
 normalStyle = spr_button_about_normal;
 hoveredStyle = spr_button_about_hovered;
-pressedStyle = spr_button_about_normal;
+pressedStyle = spr_button_about_pressed;
 
 spawn_text = false;
 
