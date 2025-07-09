@@ -10,6 +10,8 @@ if (spawn_text == true) {
 	var version = extension_get_version("Windows");
 	draw_text(0, 0, version);
 }
-if (keyboard_check_pressed(vk_escape)) {
+if (spawn_text == true) {
+	if (keyboard_check_pressed(vk_escape)) {
 		spawn_text = false;
+	}
 }

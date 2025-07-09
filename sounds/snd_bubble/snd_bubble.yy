@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_hower",
+  "%Name":"snd_bubble",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.9229932,
-  "name":"snd_hower",
+  "duration":0.5363719,
+  "name":"snd_bubble",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_hower.mp3",
+  "soundFile":"snd_bubble.mp3",
   "type":0,
-  "volume":0.51,
+  "volume":1.0,
 }

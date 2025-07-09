@@ -10,4 +10,3 @@ pressedStyle = spr_button_newGame_pressed;
 callback_function = function() {
 	room_goto(rm_mainPage);
 }
-

@@ -66,13 +66,14 @@
     {"id":{"name":"obj_musicManager","path":"objects/obj_musicManager/obj_musicManager.yy",},},
     {"id":{"name":"obj_pauseMenu","path":"objects/obj_pauseMenu/obj_pauseMenu.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_startBubble","path":"objects/obj_startBubble/obj_startBubble.yy",},},
     {"id":{"name":"ps_classiki_correct","path":"particles/ps_classiki_correct/ps_classiki_correct.yy",},},
     {"id":{"name":"ps_classiki_dropBit","path":"particles/ps_classiki_dropBit/ps_classiki_dropBit.yy",},},
     {"id":{"name":"ps_tutorial","path":"particles/ps_tutorial/ps_tutorial.yy",},},
-    {"id":{"name":"rm_eatOrNot","path":"rooms/rm_eatOrNot/rm_eatOrNot.yy",},},
     {"id":{"name":"rm_mainPage","path":"rooms/rm_mainPage/rm_mainPage.yy",},},
     {"id":{"name":"rm_startPage","path":"rooms/rm_startPage/rm_startPage.yy",},},
     {"id":{"name":"snd__gameTheme","path":"sounds/snd__gameTheme/snd__gameTheme.yy",},},
+    {"id":{"name":"snd_bubble","path":"sounds/snd_bubble/snd_bubble.yy",},},
     {"id":{"name":"snd_classiki_theme","path":"sounds/snd_classiki_theme/snd_classiki_theme.yy",},},
     {"id":{"name":"snd_correctQte","path":"sounds/snd_correctQte/snd_correctQte.yy",},},
     {"id":{"name":"snd_fail_short","path":"sounds/snd_fail_short/snd_fail_short.yy",},},
@@ -142,7 +143,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_startPage","path":"rooms/rm_startPage/rm_startPage.yy",},},
     {"roomId":{"name":"rm_mainPage","path":"rooms/rm_mainPage/rm_mainPage.yy",},},
-    {"roomId":{"name":"rm_eatOrNot","path":"rooms/rm_eatOrNot/rm_eatOrNot.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
