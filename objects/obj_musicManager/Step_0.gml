@@ -6,7 +6,14 @@ if (room == rm_mainPage) {
 		if (instance_exists(obj_classiki_manger) && !audio_is_playing(snd_classiki_theme)) {
 			audio_play_sound(snd_classiki_theme, 5, true);
 		}
-	} else { audio_stop_sound(snd_classiki_theme); } 
+	} else { audio_stop_sound(snd_classiki_theme); }
+	
+	if (global.inGame == true) {
+		if (instance_exists(obj_eatOrNot_manger) && !audio_is_playing(snd_eatOrNot_theme)) {
+			audio_play_sound(snd_eatOrNot_theme, 5, true);
+		}
+	} else { audio_stop_sound(snd_eatOrNot_theme); } 
+	
 	if (global.inGame == false) {
 		if (!audio_is_playing(snd_mainPage_theme)) {
 			audio_play_sound(snd_mainPage_theme, 5, true);

@@ -9,9 +9,11 @@ say_item = false;
 
 right_ansver = noone;
 
-input_blocked = true; // Флаг блокировки ввода
+input_blocked = false; // Флаг блокировки ввода
 
 end_game = false;
+
+tooltipImgIdex = 0
 
 function choose_item() {
     if (irandom(1) == 0) {
