@@ -17,3 +17,13 @@ draw_set_font(f_score)
 draw_set_color(c_black)
 draw_text(315, 448, string(current_lap));
 draw_set_color(cur_color);
+
+if (show_addTimer == true) {
+	draw_sprite(spr_dialog_cloud, 0, x, y)
+	draw_set_font(f_base);
+	draw_set_color(c_black);
+	draw_text(x+6, y+5, "Круто! Мама")
+	draw_text(x+6, y+17, "разрешит тебе")
+	draw_text(x+6, y+29, "еще погулять")
+	draw_set_color(cur_color);
+}

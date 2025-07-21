@@ -8,6 +8,6 @@ hoveredStyle = spr_button_exit_hovered;
 pressedStyle = spr_button_exit_pressed;
 
 callback_function = function() {
-	game_end();
+	room_goto(rm_exitPage);
 }
 

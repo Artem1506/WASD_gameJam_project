@@ -26,6 +26,22 @@ if (obj_classiki_manger.current_lap < 4) {
 		draw_sprite(spr_tutorial_1, 0, x1+40, y1);
 		part_system_position(part_system_create(ps_tutorial), x1+50, y1-21);
 		}
+	if (x2 > x1+60 && x2 < x1+80 && obj_classiki_manger.current_lap == 4) {
+		draw_sprite(spr_tutorial_1, 0, x1+60, y1);
+		part_system_position(part_system_create(ps_tutorial), x1+70, y1-21);
+		}
+	if (x2 > x1+80 && x2 < x1+100 && obj_classiki_manger.current_lap == 5) {
+		draw_sprite(spr_tutorial_1, 0, x1+80, y1);
+		part_system_position(part_system_create(ps_tutorial), x1+90, y1-21);
+		}
+	if (x2 > x1+100 && x2 < x1+120 && obj_classiki_manger.current_lap == 6) {
+		draw_sprite(spr_tutorial_1, 0, x1+100, y1);
+		part_system_position(part_system_create(ps_tutorial), x1+110, y1-21);
+		}
+	if (x2 > x1+120 && x2 < x1+140 && obj_classiki_manger.current_lap == 7) {
+		draw_sprite(spr_tutorial_1, 0, x1+120, y1);
+		part_system_position(part_system_create(ps_tutorial), x1+130, y1-21);
+		}
 }
 		
 if (dialog_1 == true) {

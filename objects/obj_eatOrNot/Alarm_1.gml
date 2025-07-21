@@ -7,12 +7,13 @@ if (right_ansver == true && input_blocked == true) {
 	sprite_index = spr_eatOrNot_NPC_catchBall_1;
 }
 if (right_ansver == false && input_blocked == true) {
-	score_player -= 1;
+	if (score_player > 0) { score_player -= 1; }
 	audio_play_sound(snd_fail_short, 10, false);
 	image_index = 0;
 	sprite_index = spr_eatOrNot_NPC_catchBall_1;
 }
 if (input_blocked == false) {
+	global.eatOrNot_loss ++;
 	score_player = 0;
 	end_game = true;
 	audio_play_sound(snd_fail, 10, false);

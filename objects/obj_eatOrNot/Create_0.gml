@@ -8,12 +8,12 @@ is_food = undefined;
 say_item = false;
 
 right_ansver = noone;
-
 input_blocked = false; // Флаг блокировки ввода
-
 end_game = false;
+tooltipImgIdex = 0;
+won_1 = false;
+won_2 = false;
 
-tooltipImgIdex = 0
 
 function choose_item() {
     if (irandom(1) == 0) {

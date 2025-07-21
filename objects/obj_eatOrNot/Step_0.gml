@@ -1,6 +1,8 @@
 
 if (global.inGame == false) { instance_destroy(); }
 
+if (score_player > global.eatOrNot_max_score) { global.eatOrNot_max_score = score_player } 
+
 time_limit = exp(-0.25 * score_player)*2; //по экспоненте уменьшает время на ответ в зависимости от счета
 
 if (say_item == false) {

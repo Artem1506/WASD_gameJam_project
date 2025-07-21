@@ -13,6 +13,7 @@ if (throw_resalt == obj_classiki_manger.current_lap) {
 		instance_destroy()
 	}
 } else {
+	global.classiki_loss ++;
 	audio_play_sound(snd_fail, 10, false);
 	dialog_1 = true;
 	alarm[0] = 120
