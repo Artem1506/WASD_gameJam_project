@@ -7,7 +7,7 @@ pressedStyle = spr_classiki_normal;
 
 callback_function = function() {
 	if (!instance_exists(obj_classiki_manger)) {
-		instance_create_layer(210, 210, "Instances", obj_classiki_manger)
+		instance_create_layer(190, 274, "Instances", obj_classiki_manger)
 		global.inGame = true;
 	}
 }

@@ -16,11 +16,12 @@ if (global.inGame == false) {
 					callback_function(); 
 					}
 			} else if (!mouse_check_button(mb_left)) {
-					sprite_index = hoveredStyle;
+				if (sprite_index != hoveredStyle) {
+						audio_play_sound(snd_hower, 10, false); }
+						sprite_index = hoveredStyle;
 					}
 		} else {
 		sprite_index = normalStyle; 
 		is_pressed = false;
 	}
-} else { sprite_index = normalStyle; 
-}
+} else { sprite_index = normalStyle }

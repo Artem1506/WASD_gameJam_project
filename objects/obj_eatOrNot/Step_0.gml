@@ -14,12 +14,10 @@ if (say_item == false) {
 if (mouse_check_button_pressed(mb_left)) {
     if (is_food == true && input_blocked == false) {
 		 right_ansver = true;
-		 show_debug_message("Верный ввод выбрано сьедобное")
 		 input_blocked = true;
     }
 	else if (is_food == false && input_blocked == false) {
 		right_ansver = false;
-		show_debug_message("Не верный ввод выбрано съедобное, а кидалось не сьедобное")
 		input_blocked = true;
 	}
 }
@@ -27,12 +25,10 @@ if (mouse_check_button_pressed(mb_left)) {
 if (mouse_check_button_pressed(mb_right)) {
     if (is_food == false && input_blocked == false) {
 		right_ansver = true
-		show_debug_message("Верный ввод выбрано не сьедобное")
 		input_blocked = true;
     }
 	else if (is_food == true && input_blocked == false) {
 		right_ansver = false;
-		show_debug_message("Не верный ввод выбрано не съедобное, а кидалось сьедобное")
 		input_blocked = true;
 	}
 }

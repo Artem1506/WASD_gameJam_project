@@ -5,3 +5,4 @@ current_lap = 1;
 show_addTimer = false;
 addTimer = noone;
 add_second = noone;
+bubble_snd = true;

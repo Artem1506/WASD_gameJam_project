@@ -13,4 +13,4 @@ minutes_prev = minutes
 //minutes_prev = minutes;
 show_cloud_started = false;
 show_cloud = false;
-
+bubble_snd = true;

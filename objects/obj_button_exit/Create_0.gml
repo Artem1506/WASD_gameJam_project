@@ -10,4 +10,3 @@ pressedStyle = spr_button_exit_pressed;
 callback_function = function() {
 	room_goto(rm_exitPage);
 }
-

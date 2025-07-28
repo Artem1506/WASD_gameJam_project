@@ -7,6 +7,9 @@ draw_set_font(f_base);
 draw_set_color(c_black);
 
 if (sprite_index == spr_dialog_cloud_but) {
+	if (!audio_is_playing(snd_bubble) && bubble_snd == true) {
+		audio_play_sound(snd_bubble, 10, false);
+		bubble_snd = false; } 
 	draw_text(x+6, y+5, "Женька! хочешь")
 	draw_text(x+6, y+17, "в классики")
 	draw_text(x+6, y+29, "поиграть?")

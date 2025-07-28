@@ -23,10 +23,15 @@ draw_text(574, 423, get_countdown_time());
 draw_set_color(cur_color);
 
 if (global.game_timer <= 0) {
+	if (!audio_is_playing(snd_fail) && room == rm_mainPage) {
+		audio_play_sound(snd_fail, 10, false) } 
 	room_goto(rm_exitPage);
 }
 
 if (show_cloud == true) {
+	if (!audio_is_playing(snd_bubble) && bubble_snd == true) {
+		audio_play_sound(snd_bubble, 10, false);
+		bubble_snd = false; } 
 	draw_sprite(spr_dialog_cloud_2_y_scale, 0, 470, 5);
 	draw_set_color(c_black);
 	draw_set_font(f_base);

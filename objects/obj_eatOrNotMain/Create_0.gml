@@ -7,7 +7,7 @@ pressedStyle = spr_bench_normal;
 
 callback_function = function() {
 	if (!instance_exists(obj_eatOrNot_manger)) {
-	instance_create_layer(610, 180, "Instances", obj_eatOrNot_manger)
+	instance_create_layer(610, 212, "Instances", obj_eatOrNot_manger)
 	global.inGame = true;
 	}
 }

@@ -9,3 +9,4 @@ dialog_1 = false;
 dialog_2 = false;
 input_blocked = false;
 start_again = false;
+jump = false;

@@ -3,3 +3,4 @@
 
 minutes_prev = minutes;
 show_cloud = false;
+bubble_snd = true;

@@ -12,8 +12,8 @@
   "duration":0.8620408,
   "name":"snd_correctQte",
   "parent":{
-    "name":"classiki",
-    "path":"folders/Sounds/classiki.yy",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

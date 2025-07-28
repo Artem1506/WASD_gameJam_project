@@ -7,15 +7,14 @@ tooltipImgIdex += 4/room_speed;
 if (tooltipImgIdex >= 2) { tooltipImgIdex = 0 }
 
 if (say_item == true) {
-	draw_sprite(spr_dialog_cloud_2, 0, 470, 190);
+	draw_sprite(spr_dialog_cloud_2, 0, 470, 222);
 	draw_set_font(f_base);
 	draw_set_color(c_black);
-	draw_text(500, 200, current_item);
+	draw_text(500, 232, current_item);
 	draw_set_color(cur_color);
 }
 
 if (score_player < 3 && input_blocked == false) {
-	if (is_food == true) {draw_sprite(spr_lmb, tooltipImgIdex, 510, 380)}
-	if (is_food == false) {draw_sprite(spr_rmb, tooltipImgIdex, 510, 380)}
+	if (is_food == true) {draw_sprite(spr_lmb, tooltipImgIdex, 510, 412)}
+	if (is_food == false) {draw_sprite(spr_rmb, tooltipImgIdex, 510, 412)}
 }
-	

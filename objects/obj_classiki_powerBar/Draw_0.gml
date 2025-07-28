@@ -38,7 +38,7 @@ if (obj_classiki_manger.current_lap < 4) {
 		draw_sprite(spr_tutorial_1, 0, x1+100, y1);
 		part_system_position(part_system_create(ps_tutorial), x1+110, y1-21);
 		}
-	if (x2 > x1+120 && x2 < x1+140 && obj_classiki_manger.current_lap == 7) {
+	if (x2 > x1+120 && x2 < x1+140 && obj_classiki_manger.current_lap >= 7) {
 		draw_sprite(spr_tutorial_1, 0, x1+120, y1);
 		part_system_position(part_system_create(ps_tutorial), x1+130, y1-21);
 		}

@@ -7,9 +7,10 @@ if (throw_bit == false) {
 	part_system_position(part_system_create(ps_classiki_dropBit), x2, y-25);
 }
 
-if (throw_resalt == obj_classiki_manger.current_lap) {
+if (throw_resalt == obj_classiki_manger.current_lap || 
+(obj_classiki_manger.current_lap >= 7 && throw_resalt == 7)) {
 	if (!instance_exists(obj_classiki_qte)) {
-		instance_create_layer(132, 424, "HUD", obj_classiki_qte)
+		instance_create_layer(132, 456, "HUD", obj_classiki_qte)
 		instance_destroy()
 	}
 } else {
