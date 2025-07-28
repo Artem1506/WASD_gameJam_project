@@ -10,7 +10,7 @@ draw_set_color(c_black);
 if (spawn_text == true) {
 	draw_sprite(spr_about_BG, 0, 0, 0);
 	instance_deactivate_all(self);
-	draw_text(540, 460, "v.0.3.0.1607");
+	draw_text(540, 460, "v.1.0.0.2807");
 	draw_text(16, 5, "жми Esc, чтобы вернуться в меню");
 	draw_set_color(cur_color);
 }

@@ -13,7 +13,7 @@ if (throw_bit == true) {
 	draw_sprite(spr_bit, 0, x2, y-25)
 }
 
-if (obj_classiki_manger.current_lap < 4) {
+if (obj_classiki_manger.current_lap != noone) {
 	if (x2 < x1+20 && obj_classiki_manger.current_lap == 1) {
 		draw_sprite(spr_tutorial_1, 0, x1, y1);
 		part_system_position(part_system_create(ps_tutorial), x1+10, y1-21);

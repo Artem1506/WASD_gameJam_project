@@ -98,6 +98,7 @@ if (instance_exists(obj_eatOrNot_manger)) {
 	}
 }
 
+if (global.inGame == false) { sprite_index = spr_playerF_idle }
 /*
 if (instance_exists(obj_eatOrNot) && obj_classiki_manger.sprite_index == spr_dialog_cloud_but) {
 	if (!instance_exists(obj_classiki_powerBar) || !instance_exists(obj_classiki_qte)) {
