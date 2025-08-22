@@ -18,12 +18,6 @@ if (instance_exists(obj_classiki_qte)) {
 	}
 }
 
-//if (sprite_index == spr_player_jump1t2_sR || sprite_index == spr_player_jump2t1_sR) {
-//	if (image_index <= 1 && !audio_is_playing(snd_jump)) {
-//		audio_play_sound(snd_jump, 30, false);
-//	}
-//}
-
 if (instance_exists(obj_classiki_manger) && obj_classiki_manger.current_lap != noone) {
 	if (instance_exists(obj_classiki_qte) && obj_classiki_qte.jump == true) {
 		x += jump_step;
@@ -99,11 +93,3 @@ if (instance_exists(obj_eatOrNot_manger)) {
 }
 
 if (global.inGame == false) { sprite_index = spr_playerF_idle }
-/*
-if (instance_exists(obj_eatOrNot) && obj_classiki_manger.sprite_index == spr_dialog_cloud_but) {
-	if (!instance_exists(obj_classiki_powerBar) || !instance_exists(obj_classiki_qte)) {
-		x = 20;
-		y = 362;
-		sprite_index = spr_player_idle_sR;
-	}
-}

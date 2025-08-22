@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (global.inGame == false) {
+if (global.inGame == false|| (global.inGame == true && instance_exists(obj_classiki_manger))) {
 	if (point_in_rectangle(mouse_x, mouse_y, x, y, x + sprite_width, y + sprite_height)) {
     if (mouse_check_button_pressed(mb_left)) {
         is_pressed = true;
@@ -11,8 +11,9 @@ if (global.inGame == false) {
 			is_pressed = false;
 			sprite_index = hoveredStyle;
 				if (callback_function != noone) {
-					callback_function(); 
-					}
+					if (instance_exists(obj_classiki_manger)) { global.inGame = false; }
+					else { callback_function(); }
+				}
 			} else if (!mouse_check_button(mb_left)) {
 				if (sprite_index != hoveredStyle) {
 						audio_play_sound(snd_hower, 10, false); }

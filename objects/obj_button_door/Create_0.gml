@@ -10,4 +10,3 @@ pressedStyle = spr_door_normal;
 callback_function = function() {
 	room_goto(rm_exitPage);
 }
-

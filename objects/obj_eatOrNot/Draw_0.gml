@@ -1,4 +1,3 @@
-// Позиции персонажей
 
 draw_self();
 var cur_color = draw_get_color();

@@ -10,4 +10,3 @@ pressedStyle = spr_button_pauseCancel_normal;
 callback_function = function() {
 	global.pauseIsActive = false;
 }
-

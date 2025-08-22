@@ -12,4 +12,3 @@ spawn_text = false;
 callback_function = function() {
 	spawn_text = true;
 }
-
