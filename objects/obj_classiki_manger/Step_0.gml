@@ -22,7 +22,7 @@ if (instance_exists(obj_classiki_powerBar) || instance_exists(obj_classiki_qte))
 if (instance_exists(obj_classiki_qte)) {
 	if (obj_classiki_qte.combo == true && obj_classiki_qte.current_step == 8) {
 		audio_play_sound(snd_gameWin, 20, false);
-		addTimer = current_lap*20*room_speed;
+		addTimer = current_lap*10*room_speed;
 		add_second = addTimer div room_speed;
 		show_addTimer = true;
 		global.game_timer += addTimer;
