@@ -8,3 +8,5 @@ pressedStyle = noone;
 callback_function = noone;
 is_pressed = false;
 hovered_snd = false;
+
+show_advertise = true;

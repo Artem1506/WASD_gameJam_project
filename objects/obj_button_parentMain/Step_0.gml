@@ -6,6 +6,12 @@ if (point_in_rectangle(mouse_x, mouse_y, x, y, x + sprite_width, y + sprite_heig
         is_pressed = true;
 		audio_play_sound(snd_select, 1, false);
 		sprite_index = pressedStyle;
+		if (show_advertise == true) {
+			alarm[0] = 1800;
+			show_message("text")
+			req_id = YaGames_showFullscreenAdv(); //реклама Яндекса
+		}
+		show_advertise = false;
 		} else if (mouse_check_button_released(mb_left) && is_pressed == true) {
 			is_pressed = false;
 			sprite_index = hoveredStyle;

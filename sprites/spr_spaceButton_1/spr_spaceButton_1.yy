@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_spaceButton",
+  "%Name":"spr_spaceButton_1",
   "bboxMode":0,
   "bbox_bottom":32,
   "bbox_left":0,
@@ -22,7 +22,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"db7d95ee-ceec-40c9-98be-65cdf25b8569","blendMode":0,"displayName":"default","isLocked":false,"name":"db7d95ee-ceec-40c9-98be-65cdf25b8569","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_spaceButton",
+  "name":"spr_spaceButton_1",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -64,18 +64,16 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":33.0,
-    "seqWidth":128.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aac57fa2-98a3-4f28-8af7-f5b8822b9beb","path":"sprites/spr_spaceButton/spr_spaceButton.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aac57fa2-98a3-4f28-8af7-f5b8822b9beb","path":"sprites/spr_spaceButton_1/spr_spaceButton_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"eb06da6c-a2c8-4039-8fea-f5b66c7ee2d8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c13a093f-6d27-4e4d-ac1d-41b81bfb04c9","path":"sprites/spr_spaceButton/spr_spaceButton.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c13a093f-6d27-4e4d-ac1d-41b81bfb04c9","path":"sprites/spr_spaceButton_1/spr_spaceButton_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0783337d-49d1-48a1-9dbd-bf5c55d99ce8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
