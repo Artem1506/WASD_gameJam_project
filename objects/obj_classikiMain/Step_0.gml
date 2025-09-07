@@ -9,6 +9,12 @@ if (global.inGame == false || (global.inGame == true && instance_exists(obj_eatO
         is_pressed = true;
 		audio_play_sound(snd_mecanicalClick, 1, false);
 		sprite_index = pressedStyle;
+		if (show_advertise == true) {
+			alarm[0] = 1800;
+			audio_pause_all();
+			alarm[1] = 30; //реклама Яндекса
+		}
+		show_advertise = false;
 		} else if (mouse_check_button_released(mb_left) && is_pressed == true) {
 			is_pressed = false;
 			sprite_index = hoveredStyle;

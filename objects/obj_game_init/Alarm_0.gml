@@ -4,17 +4,18 @@ if (max_waiting_seconds > 0) {
 		// Initializing Player data
 		// We recommend sending a message about the ready of the game after all the data is ready.
 		YaGames_GameReadyOn();
-		room_goto(room_demo);
+		done = true;
+//		room_goto(rm_startPage);
 	}
 }
 else {
 	if (YaGames_getBrowserLang() == "ru") {
-		show_message_async("Ошибка ожидания инициализации SDK");
+//		show_message_async("Ошибка ожидания инициализации SDK");
 	}
 	else {
-		show_message_async("SDK initialization waiting error");
+//		show_message_async("SDK initialization waiting error");
 	}
-	room_goto(room_demo);
+//	room_goto(rm_startPage);
 }
 max_waiting_seconds -= 1;
 //alarm[0] = room_speed;

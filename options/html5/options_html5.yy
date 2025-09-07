@@ -28,7 +28,7 @@
   "option_html5_usebuiltinparticles":true,
   "option_html5_usesplash":true,
   "option_html5_use_facebook":false,
-  "option_html5_version":"1.1.0.209",
+  "option_html5_version":"1.1.2.509",
   "option_html5_webgl":0,
   "resourceType":"GMHtml5Options",
   "resourceVersion":"2.0",

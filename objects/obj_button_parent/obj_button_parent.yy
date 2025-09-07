@@ -12,8 +12,8 @@
   "name":"obj_button_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"YaGames",
+    "path":"folders/Objects/YaGames.yy",
   },
   "parentObjectId":null,
   "persistent":false,

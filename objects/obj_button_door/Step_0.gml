@@ -7,19 +7,25 @@ if (global.inGame == false) {
 	        is_pressed = true;
 			audio_play_sound(snd_mecanicalClick, 1, false);
 			sprite_index = pressedStyle;
-			} else if (mouse_check_button_released(mb_left) && is_pressed == true) {
-				is_pressed = false;
-				sprite_index = hoveredStyle;
-					if (callback_function != noone) {
-						callback_function(); 
-						}
-				} else if (!mouse_check_button(mb_left)) {
-					if (sprite_index != hoveredStyle) {
-						audio_play_sound(snd_hower, 10, false); }
-					sprite_index = hoveredStyle;
+			if (show_advertise == true) {
+				alarm[0] = 1800;
+				audio_pause_all();
+				alarm[1] = 30; //реклама Яндекса
+			}
+			show_advertise = false;
+		} else if (mouse_check_button_released(mb_left) && is_pressed == true) {
+			is_pressed = false;
+			sprite_index = hoveredStyle;
+				if (callback_function != noone) {
+					callback_function(); 
 				}
-		} else {
-	    sprite_index = normalStyle; 
+			} else if (!mouse_check_button(mb_left)) {
+				if (sprite_index != hoveredStyle) {
+					audio_play_sound(snd_hower, 10, false); }
+				sprite_index = hoveredStyle;
+			}
+	} else {
+		sprite_index = normalStyle; 
 	    is_pressed = false;
 	}
 } else { sprite_index = noone }

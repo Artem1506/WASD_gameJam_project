@@ -88,6 +88,7 @@
     {"id":{"name":"obj_pauseMenu","path":"objects/obj_pauseMenu/obj_pauseMenu.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_rasult_screen","path":"objects/obj_rasult_screen/obj_rasult_screen.yy",},},
+    {"id":{"name":"obj_SDK_starter","path":"objects/obj_SDK_starter/obj_SDK_starter.yy",},},
     {"id":{"name":"obj_startBubble","path":"objects/obj_startBubble/obj_startBubble.yy",},},
     {"id":{"name":"oResize","path":"objects/oResize/oResize.yy",},},
     {"id":{"name":"ps_addedTime","path":"particles/ps_addedTime/ps_addedTime.yy",},},
@@ -95,6 +96,7 @@
     {"id":{"name":"ps_classiki_dropBit","path":"particles/ps_classiki_dropBit/ps_classiki_dropBit.yy",},},
     {"id":{"name":"ps_tutorial","path":"particles/ps_tutorial/ps_tutorial.yy",},},
     {"id":{"name":"rm_exitPage","path":"rooms/rm_exitPage/rm_exitPage.yy",},},
+    {"id":{"name":"rm_loading","path":"rooms/rm_loading/rm_loading.yy",},},
     {"id":{"name":"rm_mainPage","path":"rooms/rm_mainPage/rm_mainPage.yy",},},
     {"id":{"name":"rm_startPage","path":"rooms/rm_startPage/rm_startPage.yy",},},
     {"id":{"name":"game_init","path":"scripts/game_init/game_init.yy",},},
@@ -186,6 +188,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_loading","path":"rooms/rm_loading/rm_loading.yy",},},
     {"roomId":{"name":"rm_startPage","path":"rooms/rm_startPage/rm_startPage.yy",},},
     {"roomId":{"name":"rm_mainPage","path":"rooms/rm_mainPage/rm_mainPage.yy",},},
     {"roomId":{"name":"rm_exitPage","path":"rooms/rm_exitPage/rm_exitPage.yy",},},

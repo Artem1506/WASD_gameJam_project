@@ -3,5 +3,6 @@
 
 if (sprite_index == spr_exit_BG && image_index >= 13) {	
 //	game_end();
-	room_goto(rm_startPage)
+	audio_stop_all();
+	room_goto(rm_startPage);
 }

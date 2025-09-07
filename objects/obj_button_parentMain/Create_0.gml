@@ -10,3 +10,4 @@ is_pressed = false;
 hovered_snd = false;
 
 show_advertise = true;
+ad_opend = noone;

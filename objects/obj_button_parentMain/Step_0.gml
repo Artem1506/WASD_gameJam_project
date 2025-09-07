@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (ad_opend == true) { audio_pause_all(); }
+if (ad_opend == false) { audio_resume_all(); }
+
 if (point_in_rectangle(mouse_x, mouse_y, x, y, x + sprite_width, y + sprite_height)) {
     if (mouse_check_button_pressed(mb_left)) {
         is_pressed = true;
@@ -8,7 +11,8 @@ if (point_in_rectangle(mouse_x, mouse_y, x, y, x + sprite_width, y + sprite_heig
 		sprite_index = pressedStyle;
 		if (show_advertise == true) {
 			alarm[0] = 1800;
-			req_id = YaGames_showFullscreenAdv(); //реклама Яндекса
+			audio_pause_all();
+			alarm[1] = 30; //реклама Яндекса
 		}
 		show_advertise = false;
 		} else if (mouse_check_button_released(mb_left) && is_pressed == true) {

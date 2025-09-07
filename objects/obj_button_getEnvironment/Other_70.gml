@@ -5,6 +5,7 @@ if (not isMap(async_load)) {
     if ((async_load[? "type"]== YaGames_AsyncEvent) and (async_load[? "request_id"] == req_id)) {
 		// Logging
 //        var _msg = json_encode(async_load);
+			ready = true
 //        log(_msg);
 		//
         switch (async_load[? "event"]) {	

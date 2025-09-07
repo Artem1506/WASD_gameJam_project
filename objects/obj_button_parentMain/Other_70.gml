@@ -11,12 +11,17 @@ if (not isMap(async_load)) {
 			
             case YaGames_CallAdClosed:
                 // The ad is closed
-				var _data = json_parse(async_load[? "data"]);
-				log("Was shown: " + string(_data.wasShown));
+//				show_message("close")
+				ad_opend = false;
 				global.pauseIsActive = false;
 				audio_resume_all();
+				var _data = json_parse(async_load[? "data"]);
+				log("Was shown: " + string(_data.wasShown));
             break;
+			
             case YaGames_CallAdOpened:
+//				show_message("open")
+				ad_opend = true;
 				global.pauseIsActive = true;
 				audio_pause_all();
                 // Advertising is open

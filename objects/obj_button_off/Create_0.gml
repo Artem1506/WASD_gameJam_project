@@ -11,3 +11,4 @@ callback_function = function() {
 	obj_off_Screan.sprite_index = spr_exit_BG;
 }
 
+show_advertise = false;
