@@ -36,6 +36,7 @@
     {"$GMFolder":"","%Name":"NPC","folderPath":"folders/Sprites/NPC.yy","name":"NPC","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"player","folderPath":"folders/Sprites/player.yy","name":"player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tooltip","folderPath":"folders/Sprites/tooltip.yy","name":"tooltip","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Steamworks","folderPath":"folders/Steamworks.yy","name":"Steamworks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -48,6 +49,7 @@
   },
   "name":"WASD_gameJam_project",
   "resources":[
+    {"id":{"name":"Steamworks","path":"extensions/Steamworks/Steamworks.yy",},},
     {"id":{"name":"f_base","path":"fonts/f_base/f_base.yy",},},
     {"id":{"name":"f_score","path":"fonts/f_score/f_score.yy",},},
     {"id":{"name":"obj_button_about","path":"objects/obj_button_about/obj_button_about.yy",},},
