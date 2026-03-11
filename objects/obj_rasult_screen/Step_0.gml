@@ -5,14 +5,12 @@
 steam_init();
 steam_update()
 
-//if(steam_initialised() && steam_stats_ready() && steam_is_overlay_enabled()) {
-//	show_debug_message("111")
-	if (variable_global_exists("total_game_time") && global.ach_5min_unlocked == false) {
-		if (total_game_second >= 300) {
-			steam_set_achievement("ACH_5MIN");
-			global.ach_5min_unlocked = true;
-		}
+if (variable_global_exists("total_game_time") && global.ach_5min_unlocked == false) {
+	if (total_game_second >= 300) {
+		steam_set_achievement("ACH_5MIN");
+		global.ach_5min_unlocked = true;
 	}
-//}
+}
+
 
 
